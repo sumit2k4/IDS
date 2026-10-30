@@ -1,0 +1,58 @@
+nslkdd central mode=central sigma=0 attention=0 agg=avg beta=0
+nslkdd local mode=local sigma=0 attention=0 agg=avg beta=0
+nslkdd fedavg sigma=0 attention=0 agg=avg beta=0 save_probs=1
+nslkdd fedprox sigma=0 attention=0 agg=avg beta=0 mu=0.01
+nslkdd fedavg_dp attention=0 agg=avg beta=0 save_probs=1
+nslkdd fedprox_dp attention=0 agg=avg beta=0 mu=0.01
+nslkdd median_dp attention=0 agg=median beta=0
+nslkdd prop save_probs=1
+nslkdd prop_nodp sigma=0
+unsw central mode=central sigma=0 attention=0 agg=avg beta=0
+unsw local mode=local sigma=0 attention=0 agg=avg beta=0
+unsw fedavg sigma=0 attention=0 agg=avg beta=0 save_probs=1
+unsw fedprox sigma=0 attention=0 agg=avg beta=0 mu=0.01
+unsw fedavg_dp attention=0 agg=avg beta=0 save_probs=1
+unsw fedprox_dp attention=0 agg=avg beta=0 mu=0.01
+unsw median_dp attention=0 agg=median beta=0
+unsw prop save_probs=1
+unsw prop_nodp sigma=0
+nslkdd abl_noatt attention=0
+nslkdd abl_notrust agg=avg
+nslkdd abl_nomom beta=0
+nslkdd abl_ms multiscale=1
+nslkdd sig1.0 sigma=1.0
+nslkdd sig1.5 sigma=1.5
+nslkdd sig3.0 sigma=3.0
+nslkdd sig4.0 sigma=4.0
+nslkdd alpha0.1 alpha=0.1
+nslkdd alpha0.3 alpha=0.3
+nslkdd alpha1.0 alpha=1.0
+nslkdd alpha10.0 alpha=10.0
+nslkdd off_prop protocol=official save_probs=1
+nslkdd off_fedavg_dp protocol=official attention=0 agg=avg beta=0
+unsw abl_noatt attention=0
+unsw abl_notrust agg=avg
+unsw abl_nomom beta=0
+unsw abl_ms multiscale=1
+unsw sig1.0 sigma=1.0
+unsw sig1.5 sigma=1.5
+unsw sig3.0 sigma=3.0
+unsw sig4.0 sigma=4.0
+unsw alpha0.1 alpha=0.1
+unsw alpha0.3 alpha=0.3
+unsw alpha1.0 alpha=1.0
+unsw alpha10.0 alpha=10.0
+unsw off_prop protocol=official save_probs=1
+unsw off_fedavg_dp protocol=official attention=0 agg=avg beta=0
+nslkdd fedavg_dp_mal0.1 attention=0 agg=avg beta=0 mal=0.1
+nslkdd median_dp_mal0.1 attention=0 agg=median beta=0 mal=0.1
+nslkdd prop_mal0.1 mal=0.1
+nslkdd fedavg_dp_mal0.2 attention=0 agg=avg beta=0 mal=0.2
+nslkdd median_dp_mal0.2 attention=0 agg=median beta=0 mal=0.2
+nslkdd prop_mal0.2 mal=0.2
+nslkdd fedavg_dp_mal0.3 attention=0 agg=avg beta=0 mal=0.3
+nslkdd median_dp_mal0.3 attention=0 agg=median beta=0 mal=0.3
+nslkdd prop_mal0.3 mal=0.3
+nslkdd fedavg_dp_mal0.4 attention=0 agg=avg beta=0 mal=0.4
+nslkdd median_dp_mal0.4 attention=0 agg=median beta=0 mal=0.4
+nslkdd prop_mal0.4 mal=0.4

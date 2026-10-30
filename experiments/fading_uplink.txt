@@ -1,0 +1,102 @@
+nslkdd w_central_s0 seed=0 mode=central sigma=0 attention=0 agg=avg beta=0
+nslkdd w_local_s0 seed=0 mode=local sigma=0 attention=0 agg=avg beta=0
+nslkdd w_fedavg_s0 seed=0 channel=rayleigh snr=10 sigma=0 attention=0 agg=avg beta=0
+nslkdd w_fedprox_s0 seed=0 channel=rayleigh snr=10 sigma=0 attention=0 agg=avg beta=0 mu=0.01
+nslkdd w_prop_nodp_s0 seed=0 channel=rayleigh snr=10 sigma=0
+nslkdd w_fedavg_dp_s0 seed=0 channel=rayleigh snr=10 attention=0 agg=avg beta=0 save_probs=1
+nslkdd w_fedprox_dp_s0 seed=0 channel=rayleigh snr=10 attention=0 agg=avg beta=0 mu=0.01 save_probs=1
+nslkdd w_median_dp_s0 seed=0 channel=rayleigh snr=10 attention=0 agg=median beta=0 save_probs=1
+nslkdd w_prop_s0 seed=0 channel=rayleigh snr=10 save_probs=1
+unsw w_central_s0 seed=0 mode=central sigma=0 attention=0 agg=avg beta=0
+unsw w_local_s0 seed=0 mode=local sigma=0 attention=0 agg=avg beta=0
+unsw w_fedavg_s0 seed=0 channel=rayleigh snr=10 sigma=0 attention=0 agg=avg beta=0
+unsw w_fedprox_s0 seed=0 channel=rayleigh snr=10 sigma=0 attention=0 agg=avg beta=0 mu=0.01
+unsw w_prop_nodp_s0 seed=0 channel=rayleigh snr=10 sigma=0
+unsw w_fedavg_dp_s0 seed=0 channel=rayleigh snr=10 attention=0 agg=avg beta=0 save_probs=1
+unsw w_fedprox_dp_s0 seed=0 channel=rayleigh snr=10 attention=0 agg=avg beta=0 mu=0.01 save_probs=1
+unsw w_median_dp_s0 seed=0 channel=rayleigh snr=10 attention=0 agg=median beta=0 save_probs=1
+unsw w_prop_s0 seed=0 channel=rayleigh snr=10 save_probs=1
+nslkdd w_fedavg_dp_snr0 channel=rayleigh snr=0 attention=0 agg=avg beta=0
+nslkdd w_median_dp_snr0 channel=rayleigh snr=0 attention=0 agg=median beta=0
+nslkdd w_prop_snr0 channel=rayleigh snr=0
+nslkdd w_fedavg_dp_snr5 channel=rayleigh snr=5 attention=0 agg=avg beta=0
+nslkdd w_median_dp_snr5 channel=rayleigh snr=5 attention=0 agg=median beta=0
+nslkdd w_prop_snr5 channel=rayleigh snr=5
+nslkdd w_fedavg_dp_snr20 channel=rayleigh snr=20 attention=0 agg=avg beta=0
+nslkdd w_median_dp_snr20 channel=rayleigh snr=20 attention=0 agg=median beta=0
+nslkdd w_prop_snr20 channel=rayleigh snr=20
+nslkdd w_abl_noatt channel=rayleigh snr=10 attention=0
+nslkdd w_abl_notrust channel=rayleigh snr=10 agg=avg
+nslkdd w_abl_nomom channel=rayleigh snr=10 beta=0
+nslkdd w_abl_ms channel=rayleigh snr=10 multiscale=1
+unsw w_fedavg_dp_snr0 channel=rayleigh snr=0 attention=0 agg=avg beta=0
+unsw w_median_dp_snr0 channel=rayleigh snr=0 attention=0 agg=median beta=0
+unsw w_prop_snr0 channel=rayleigh snr=0
+unsw w_fedavg_dp_snr5 channel=rayleigh snr=5 attention=0 agg=avg beta=0
+unsw w_median_dp_snr5 channel=rayleigh snr=5 attention=0 agg=median beta=0
+unsw w_prop_snr5 channel=rayleigh snr=5
+unsw w_fedavg_dp_snr20 channel=rayleigh snr=20 attention=0 agg=avg beta=0
+unsw w_median_dp_snr20 channel=rayleigh snr=20 attention=0 agg=median beta=0
+unsw w_prop_snr20 channel=rayleigh snr=20
+unsw w_abl_noatt channel=rayleigh snr=10 attention=0
+unsw w_abl_notrust channel=rayleigh snr=10 agg=avg
+unsw w_abl_nomom channel=rayleigh snr=10 beta=0
+unsw w_abl_ms channel=rayleigh snr=10 multiscale=1
+nslkdd w_central_s1 seed=1 mode=central sigma=0 attention=0 agg=avg beta=0
+nslkdd w_local_s1 seed=1 mode=local sigma=0 attention=0 agg=avg beta=0
+nslkdd w_fedavg_s1 seed=1 channel=rayleigh snr=10 sigma=0 attention=0 agg=avg beta=0
+nslkdd w_fedprox_s1 seed=1 channel=rayleigh snr=10 sigma=0 attention=0 agg=avg beta=0 mu=0.01
+nslkdd w_prop_nodp_s1 seed=1 channel=rayleigh snr=10 sigma=0
+nslkdd w_fedavg_dp_s1 seed=1 channel=rayleigh snr=10 attention=0 agg=avg beta=0
+nslkdd w_fedprox_dp_s1 seed=1 channel=rayleigh snr=10 attention=0 agg=avg beta=0 mu=0.01
+nslkdd w_median_dp_s1 seed=1 channel=rayleigh snr=10 attention=0 agg=median beta=0
+nslkdd w_prop_s1 seed=1 channel=rayleigh snr=10
+unsw w_central_s1 seed=1 mode=central sigma=0 attention=0 agg=avg beta=0
+unsw w_local_s1 seed=1 mode=local sigma=0 attention=0 agg=avg beta=0
+unsw w_fedavg_s1 seed=1 channel=rayleigh snr=10 sigma=0 attention=0 agg=avg beta=0
+unsw w_fedprox_s1 seed=1 channel=rayleigh snr=10 sigma=0 attention=0 agg=avg beta=0 mu=0.01
+unsw w_prop_nodp_s1 seed=1 channel=rayleigh snr=10 sigma=0
+unsw w_fedavg_dp_s1 seed=1 channel=rayleigh snr=10 attention=0 agg=avg beta=0
+unsw w_fedprox_dp_s1 seed=1 channel=rayleigh snr=10 attention=0 agg=avg beta=0 mu=0.01
+unsw w_median_dp_s1 seed=1 channel=rayleigh snr=10 attention=0 agg=median beta=0
+unsw w_prop_s1 seed=1 channel=rayleigh snr=10
+nslkdd w_central_s2 seed=2 mode=central sigma=0 attention=0 agg=avg beta=0
+nslkdd w_local_s2 seed=2 mode=local sigma=0 attention=0 agg=avg beta=0
+nslkdd w_fedavg_s2 seed=2 channel=rayleigh snr=10 sigma=0 attention=0 agg=avg beta=0
+nslkdd w_fedprox_s2 seed=2 channel=rayleigh snr=10 sigma=0 attention=0 agg=avg beta=0 mu=0.01
+nslkdd w_prop_nodp_s2 seed=2 channel=rayleigh snr=10 sigma=0
+nslkdd w_fedavg_dp_s2 seed=2 channel=rayleigh snr=10 attention=0 agg=avg beta=0
+nslkdd w_fedprox_dp_s2 seed=2 channel=rayleigh snr=10 attention=0 agg=avg beta=0 mu=0.01
+nslkdd w_median_dp_s2 seed=2 channel=rayleigh snr=10 attention=0 agg=median beta=0
+nslkdd w_prop_s2 seed=2 channel=rayleigh snr=10
+unsw w_central_s2 seed=2 mode=central sigma=0 attention=0 agg=avg beta=0
+unsw w_local_s2 seed=2 mode=local sigma=0 attention=0 agg=avg beta=0
+unsw w_fedavg_s2 seed=2 channel=rayleigh snr=10 sigma=0 attention=0 agg=avg beta=0
+unsw w_fedprox_s2 seed=2 channel=rayleigh snr=10 sigma=0 attention=0 agg=avg beta=0 mu=0.01
+unsw w_prop_nodp_s2 seed=2 channel=rayleigh snr=10 sigma=0
+unsw w_fedavg_dp_s2 seed=2 channel=rayleigh snr=10 attention=0 agg=avg beta=0
+unsw w_fedprox_dp_s2 seed=2 channel=rayleigh snr=10 attention=0 agg=avg beta=0 mu=0.01
+unsw w_median_dp_s2 seed=2 channel=rayleigh snr=10 attention=0 agg=median beta=0
+unsw w_prop_s2 seed=2 channel=rayleigh snr=10
+nslkdd w_abstrust_dp_snr0 channel=rayleigh snr=0 agg=abstrust attention=0 beta=0 chw=0
+nslkdd w_abstrust_dp_snr5 channel=rayleigh snr=5 agg=abstrust attention=0 beta=0 chw=0
+nslkdd w_abstrust_dp_snr10 channel=rayleigh snr=10 agg=abstrust attention=0 beta=0 chw=0
+nslkdd w_abstrust_dp_snr20 channel=rayleigh snr=20 agg=abstrust attention=0 beta=0 chw=0
+unsw w_abstrust_dp_snr0 channel=rayleigh snr=0 agg=abstrust attention=0 beta=0 chw=0
+unsw w_abstrust_dp_snr5 channel=rayleigh snr=5 agg=abstrust attention=0 beta=0 chw=0
+unsw w_abstrust_dp_snr10 channel=rayleigh snr=10 agg=abstrust attention=0 beta=0 chw=0
+unsw w_abstrust_dp_snr20 channel=rayleigh snr=20 agg=abstrust attention=0 beta=0 chw=0
+nslkdd w_fedavg_dp_mal0.2 channel=rayleigh snr=10 attention=0 agg=avg beta=0 mal=0.2
+nslkdd w_median_dp_mal0.2 channel=rayleigh snr=10 attention=0 agg=median beta=0 mal=0.2
+nslkdd w_prop_mal0.2 channel=rayleigh snr=10 mal=0.2
+unsw w_fedavg_dp_mal0.2 channel=rayleigh snr=10 attention=0 agg=avg beta=0 mal=0.2
+unsw w_median_dp_mal0.2 channel=rayleigh snr=10 attention=0 agg=median beta=0 mal=0.2
+unsw w_prop_mal0.2 channel=rayleigh snr=10 mal=0.2
+nslkdd w_chw_s0 channel=rayleigh snr=10 chw=1
+nslkdd w_chw_snr0 channel=rayleigh snr=0 chw=1
+nslkdd w_chw_snr5 channel=rayleigh snr=5 chw=1
+nslkdd w_chw_snr20 channel=rayleigh snr=20 chw=1
+unsw w_chw_s0 channel=rayleigh snr=10 chw=1
+unsw w_chw_snr0 channel=rayleigh snr=0 chw=1
+unsw w_chw_snr5 channel=rayleigh snr=5 chw=1
+unsw w_chw_snr20 channel=rayleigh snr=20 chw=1
